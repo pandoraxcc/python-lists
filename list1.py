@@ -11,3 +11,11 @@ plist.insert(2, plist.pop(3))
 plist.insert(4,plist.pop(5))
 new_sentence = new_sentence.join(plist)
 print(new_sentence)
+
+#cutting the list from the start
+print(plist[6:])
+#cutting the list from the end
+print (plist[:-7])
+#cutting every second letter
+print(plist[::2])
+
